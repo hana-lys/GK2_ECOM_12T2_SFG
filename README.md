@@ -35,7 +35,7 @@ Dự án được xây dựng bằng các công nghệ web cơ bản, dễ dàng
 
 ## Bảng Phân Công Nhiệm Vụ (Team Task Distribution)
 
-Dự án được thực hiện bởi đội ngũ 3 thành viên với các vai trò cụ thể như sau:
+Dự án được thực hiện bởi 3 thành viên với các vai trò cụ thể như sau:
 
 | Thành viên | Vai trò | Nhiệm vụ chính | Trạng thái |
 | :--- | :--- | :--- | :---: |
