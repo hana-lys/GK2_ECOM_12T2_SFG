@@ -146,6 +146,26 @@ img {
     margin-top: 10px;
 }
 
+.product-card button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #e63946;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.product-card button:hover {
+    background-color: #c1121f;
+    transform: scale(1.02);
+}
+
 /* SMALL BANNER */
 .sm-banner {
     display: flex;
@@ -311,4 +331,13 @@ img {
     form {
         padding: 0 5%;
     }
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+    width: 100%;
 }
