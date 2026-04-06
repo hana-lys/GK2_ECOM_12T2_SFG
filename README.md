@@ -20,6 +20,7 @@ Dự án được xây dựng bằng các công nghệ web cơ bản, dễ dàng
 * **HTML5**: Cấu trúc nội dung chuẩn SEO.
 * **CSS3**: Sử dụng Flexbox, Grid Layout cho bố cục và Google Fonts (Poppins) cho kiểu chữ.
 * **Responsive**: Media Queries để tối ưu hóa hiển thị trên nhiều kích thước màn hình.
+* **Javascript**: Xử lý logic tính toán giỏ hàng và Menu người dùng tương tác.
 
 ---
 
@@ -27,9 +28,30 @@ Dự án được xây dựng bằng các công nghệ web cơ bản, dễ dàng
 
 ```text
 ├── index.html       # Tệp cấu trúc chính của trang web
+├── shop.html        # Trang cửa hàng - Danh sách các sản phẩm
+├── product.html     # Trang chi tiết sản phẩm - Thông tin chi tiết sản phẩm
+├── blog.html        # Trang tin tức - Bài viết về kẹo & socola
+├── about.html       # Trang giới thiệu - Thông tin thành viên
+├── contact.html     # Trang liên hệ - Form gửi tin nhắn cho shop
+├── cart.html        # Trang giỏ hàng - Tính toán số lượng & Hoàn tất thanh toán
 ├── style.css        # Tệp định dạng phong cách và hiệu ứng
+├── script.js        # Tệp xử lý JavaScript (Tăng giảm số lượng, User Menu)
 └── img/             # Thư mục chứa hình ảnh sản phẩm và banner
 ```
+
+---
+
+## Nguồn tài nguyên
+* **Hình ảnh**: Các hình ảnh sản phẩm và banner được sử dụng từ AI
+* **Icons**: Sử dụng hệ thống Emoji mặc định và Google Fonts (Poppins) để đảm bảo giao diện thống nhất.
+
+
+---
+
+## Cách khởi chạy dự án
+* Cách 1: Mở trực tiếp tệp index.html bằng trình duyệt web bất kỳ.
+* Cách 2: Truy cập qua GitHub Pages: https://hana-lys.github.io/GK2_ECOM_12T2_SFG/.
+
 
 ---
 
