@@ -1,304 +1,110 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>SWEETLAB - Candy & Chocolate Store</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWEETLAB - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-<header class="header">
-<div class="logo">
-<img src="img/logo.png" alt="SWEETLAB logo" width="100" height="100">
+    <header class="header">
+        <div class="logo">
+    <a href="index.html">
+        <img src="img/logo.png" alt="Logo" width="100" style="cursor: pointer;">
+    </a>
 </div>
-
-<nav class="navbar">
-
-<a href="#">Home</a>
-<a href="#">Candy</a>
-<a href="#">Chocolate</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-
-</nav>
-
-<div class="icons">
-
-<span>🛒</span>
-<span>👤</span>
-
-</div>
-
-</header>
-
-
-<!-- HERO BANNER -->
-<section class="hero">
-
-<div class="hero-text">
-
-<h4>Sweet Collection</h4>
-
-<h1>Welcome to <span>SWEETLAB</span></h1>
-
-<p>Thiên đường bánh kẹo và socola ngọt ngào dành cho bạn.</p>
-
-<a href="#products">
-<button>Shop Sweet Now</button>
-</a>
-
-</div>
-
-<div class="hero-img">
-
-<!-- CHÈN ẢNH BANNER BÁNH KẸO / SOCOLA (#8e44ad) -->
-<img src="img/Banner.png" alt="Sweet banner" >
-
-</div>
-
-</section>
-
-
-<!-- FEATURE -->
-<section class="feature">
-
-<div class="feature-box">
-
-<!-- ICON FEATURE (#8e44ad) -->
-<img src="img/free.png">
-<h4>Free Delivery</h4>
-
-</div>
-
-<div class="feature-box">
-
-<img src="img/fresh.png">
-<h4>Fresh Candy</h4>
-
-</div>
-
-<div class="feature-box">
-
-<img src="img/sweet.png">
-<h4>Sweet Deals</h4>
-
-</div>
-
-<div class="feature-box">
-
-<img src="img/gift.png">
-<h4>Gift Box</h4>
-
-</div>
-
-</section>
-
-
-
-<!-- PRODUCT SECTION -->
-<section class="product" id="products">
-
-    <h2>Popular Sweets</h2>
-    <p>Our best selling candy & chocolate</p>
-
-    <div class="product-container">
-
-        <div class="product-card">
-            <img src="img/biscoff.jpg">
-            <h4>Biscoff Lotus</h4>
-            <p>$5</p>
-            <button>Add to Cart</button>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="icons">
+            <a href="cart.html" style="text-decoration: none;"><span>🛒</span></a>
+            <span>👤</span>
         </div>
+    </header>
 
-        <div class="product-card">
-            <img src="img/cotton.jpg">
-            <h4>Cotton Candy Dream Mix</h4>
-            <p>$3</p>
-            <button>Add to Cart</button>
+    <section class="hero">
+        <div class="hero-text">
+            <h4>Sweet Collection</h4>
+            <h1>Welcome to <span>SWEETLAB</span></h1>
+            <p>Thiên đường bánh kẹo ngọt ngào dành cho bạn.</p>
+            <a href="shop.html"><button>Shop Sweet Now</button></a>
         </div>
-
-        <div class="product-card">
-            <img src="img/dubai.jpg">
-            <h4>Dubai Chocolate Bomb</h4>
-            <p>$6</p>
-            <button>Add to Cart</button>
+        <div class="hero-img">
+            <img src="img/Banner.png" alt="Banner" class="responsive-banner">
         </div>
+    </section>
 
-        <div class="product-card">
-            <img src="img/japan.jpg">
-            <h4>Japanese Tea</h4>
-            <p>$4</p>
-            <button>Add to Cart</button>
+    <section class="feature">
+        <div class="feature-box">
+            <img src="img/free.png" alt="Free">
+            <h4>Free Delivery</h4>
         </div>
-
-        <div class="product-card">
-            <img src="img/matcha.png">
-            <h4>Matcha Cream</h4>
-            <p>$5</p>
-            <button>Add to Cart</button>
+        <div class="feature-box">
+            <img src="img/fresh.png" alt="Fresh">
+            <h4>Fresh Candy</h4>
         </div>
-
-        <div class="product-card">
-            <img src="img/strawcara.jpg">
-            <h4>Salted Caramel Strawberry</h4>
-            <p>$5</p>
-            <button>Add to Cart</button>
+        <div class="feature-box">
+            <img src="img/sweet.png" alt="Sweet">
+            <h4>Sweet Deals</h4>
         </div>
-
-        <div class="product-card">
-            <img src="img/strawchoco.jpg">
-            <h4>Hot Chocolate Fudge Dipped Strawberry</h4>
-            <p>$5</p>
-            <button>Add to Cart</button>
+        <div class="feature-box">
+            <img src="img/gift.png" alt="Gift">
+            <h4>Gift Box</h4>
         </div>
+    </section>
 
-        <div class="product-card">
-            <img src="img/tropical.png">
-            <h4>Tropical Blast</h4>
-            <p>$10</p>
-            <button>Add to Cart</button>
+    <section class="product" id="products">
+        <h2>Featured Products</h2>
+        <p>Sản phẩm nổi bật tại cửa hàng</p>
+        <div class="product-container">
+            <div class="product-card">
+                <a href="product.html"><img src="img/dubai.jpg" alt="Product"></a>
+                <h4>Dubai Chocolate Bomb</h4>
+                <p>$6</p>
+                <a href="product.html"><button>View Detail</button></a>
+            </div>
+            <div class="product-card">
+                <a href="product.html"><img src="img/biscoff.jpg" alt="Product"></a>
+                <h4>Biscoff Lotus</h4>
+                <p>$5</p>
+                <a href="product.html"><button>View Detail</button></a>
+            </div>
+            <div class="product-card">
+                <a href="product.html"><img src="img/cotton.jpg" alt="Product"></a>
+                <h4>Cotton Candy Dream</h4>
+                <p>$3</p>
+                <a href="product.html"><button>View Detail</button></a>
+            </div>
+            <div class="product-card">
+                <a href="product.html"><img src="img/matcha.png" alt="Product"></a>
+                <h4>Matcha Cream</h4>
+                <p>$5</p>
+                <a href="product.html"><button>View Detail</button></a>
+            </div>
         </div>
+    </section>
 
-    </div>
-
-</section>
-
-<!-- SMALL BANNER -->
-<section class="sm-banner">
-
-<div class="banner-box">
-
-<!-- SMALL BANNER SOCOLA (#8e44ad) -->
-<img src="img/choco week.png">
-
-<div class="banner-text">
-
-<h4>Chocolate Week</h4>
-<h2>Sweet Discount</h2>
-<button>Shop Now</button>
-
-</div>
-
-</div>
-
-<div class="banner-box">
-
-<!-- SMALL BANNER CANDY (#8e44ad) -->
-<img src="img/candy collection.png">
-
-<div class="banner-text">
-
-<h4>Candy Collection</h4>
-<h2>Buy 2 Get 1</h2>
-<button>Discover</button>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- NEW PRODUCT -->
-<section class="new-product">
-
-    <h2>New Sweet Arrivals</h2>
-
-    <div class="product-container">
-
-        <div class="product-card">
-            <img src="img/cherrybar.png">
-            <h4>Cherry Wonder World</h4>
-            <p>$20</p>
+    <footer class="footer">
+        <div class="footer-box">
+            <h3>SWEETLAB</h3>
+            <p>Sweet Candy Store</p>
+            <p>Email: sweetlab@email.com</p>
         </div>
-
-        <div class="product-card">
-            <img src="img/katie.jpg">
-            <h4>Katie's Kookie and Kream</h4>
-            <p>$20</p>
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="index.html" style="color: white; text-decoration: none;">Home</a><br>
+            <a href="shop.html" style="color: white; text-decoration: none;">Shop</a><br>
+            <a href="blog.html" style="color: white; text-decoration: none;">Blog</a>
         </div>
-
-        <div class="product-card">
-            <img src="img/lys.jpg">
-            <h4>Lys's Luxurious Lover</h4>
-            <p>$50</p>
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+            <p>Instagram | Facebook | Tiktok</p>
         </div>
-
-        <div class="product-card">
-            <img src="img/glow.jpg">
-            <h4>Candy Glow</h4>
-            <p>$15</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- NEWSLETTER -->
-<section class="newsletter">
-
-<h2>Join SWEETLAB</h2>
-
-<p>Nhận ưu đãi bánh kẹo & socola mới nhất</p>
-
-<div class="newsletter-form">
-
-<input type="email" placeholder="Enter your email">
-
-<button>Subscribe</button>
-
-</div>
-
-</section>
-
-
-
-<!-- FOOTER -->
-<footer class="footer">
-
-<div class="footer-box">
-
-<h3>SWEETLAB</h3>
-
-<p>Sweet Candy & Chocolate Store</p>
-
-<p>Email: sweetlab@email.com</p>
-
-</div>
-
-
-
-<div class="footer-box">
-
-<h3>Menu</h3>
-
-<p>Home</p>
-<p>Candy</p>
-<p>Chocolate</p>
-
-</div>
-
-
-
-<div class="footer-box">
-
-<h3>Follow Us</h3>
-
-<p>Instagram</p>
-<p>Facebook</p>
-<p>Tiktok</p>
-
-</div>
-
-</footer>
-
-
+    </footer>
 </body>
 </html>
