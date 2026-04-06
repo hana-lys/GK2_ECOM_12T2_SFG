@@ -333,11 +333,101 @@ img {
     }
 }
 
-.team-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px; 
-    flex-wrap: wrap;
-    width: 100%;
+/* Header & Dropdown */
+.logo-img { cursor: pointer; }
+.header-icons { display: flex; align-items: center; gap: 15px; }
+.cart-link { text-decoration: none; }
+#user-icon { cursor: pointer; font-size: 20px; }
+#user-dropdown {
+    display: none; position: absolute; right: 0; top: 30px; background: white; 
+    min-width: 180px; box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+    border-radius: 8px; z-index: 9999; padding: 15px; 
+    border: 1px solid #ffdae1; text-align: left;
 }
+.dropdown-greeting {
+    font-size: 14px; color: #e63946; font-weight: 700; 
+    margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 8px;
+}
+.dropdown-hr { border: 0.5px solid #f9f9f9; margin: 10px 0; }
+.dropdown-link { display: block; color: #c5568a; text-decoration: none; font-size: 13px; padding: 5px 0; }
+.dropdown-logout { display: block; color: #999; text-decoration: none; font-size: 13px; padding-top: 10px; }
+.footer-link { color: white; text-decoration: none; }
+
+/* About Page */
+.about-section { padding: 60px 10%; text-align: center; }
+.about-section h2 { font-size: 35px; margin-bottom: 20px; }
+.about-section p { max-width: 800px; margin: 0 auto; line-height: 1.6; }
+.team-section { padding: 40px 10%; background: #fff6fa; }
+.team-section h2 { text-align: center; margin-bottom: 40px; }
+.team-card { text-align: center; }
+.team-img-wrapper {
+    width: 150px; height: 150px; background: #ddd; border-radius: 50%; 
+    margin: 0 auto 15px; overflow: hidden; border: 3px solid #e63946;
+}
+.team-img-wrapper img { width: 100%; height: 100%; object-fit: cover; }
+.team-role { color: #e63946; font-weight: bold; }
+.team-class { font-size: 14px; }
+/* Blog Page */
+.blog-page { padding: 60px 10%; }
+.blog-page h2 { text-align: center; margin-bottom: 40px; font-size: 35px; }
+.blog-content { padding: 15px; text-align: left; }
+.blog-content h4 { margin-bottom: 10px; }
+.blog-content p { font-size: 14px; color: #666; margin-bottom: 15px; }
+.blog-btn {
+    width: 100%; background: #e63946; color: white; border: none; 
+    padding: 10px; border-radius: 5px; cursor: pointer;
+}
+
+/* Cart Page */
+.cart-page { padding: 60px 10%; min-height: 70vh; }
+.cart-page h2 { text-align: center; margin-bottom: 30px; font-size: 35px; }
+.cart-table-wrapper {
+    overflow-x: auto; background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.cart-table { width: 100%; border-collapse: collapse; }
+.cart-table thead tr { background: #e63946; color: white; text-align: left; }
+.cart-table th, .cart-table td { padding: 20px; }
+.cart-table tbody tr { border-bottom: 1px solid #eee; }
+.cart-item-info { display: flex; align-items: center; gap: 15px; }
+.cart-item-info img { border-radius: 8px; }
+.cart-item-info h4 { margin: 0; }
+.cart-item-info small { color: #666; }
+.item-quantity { width: 60px; padding: 8px; border-radius: 5px; border: 1px solid #ddd; }
+.cart-subtotal-cell { font-weight: 600; color: #e63946; }
+.cart-checkout-box {
+    text-align: right; margin-top: 30px; padding: 30px; background: #fff6fa; 
+    border-radius: 15px; border: 1px solid #ffdae1;
+}
+.cart-checkout-box h3 { margin-bottom: 15px; font-size: 24px; }
+.total-price-display { color: #e63946; }
+.cart-buttons { display: flex; justify-content: flex-end; gap: 15px; flex-wrap: wrap; }
+.btn-continue {
+    background: #b16e7c; color: white; padding: 12px 25px; border: none; 
+    cursor: pointer; border-radius: 8px; font-weight: 600; transition: 0.3s;
+}
+.btn-checkout {
+    background: #e63946; color: white; padding: 12px 25px; border: none; 
+    cursor: pointer; border-radius: 8px; font-weight: 600; transition: 0.3s;
+}
+
+/* Contact Page */
+.contact-page { padding: 60px 10%; text-align: center; }
+.contact-page h2 { font-size: 35px; margin-bottom: 30px; }
+.contact-form { max-width: 600px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+.contact-form input, .contact-form textarea {
+    padding: 15px; border-radius: 8px; border: 1px solid #ddd; font-family: 'Poppins', sans-serif;
+}
+.btn-submit {
+    background: #e63946; color: white; padding: 15px; border: none; 
+    cursor: pointer; border-radius: 8px; font-weight: 600; transition: 0.3s;
+}
+.back-link { text-decoration: none; color: #91445b; font-weight: 500; margin-top: 10px; display: inline-block; }
+
+/* Shop Page */
+.shop-title { text-align: center; margin-top: 40px; margin-bottom: 30px; font-size: 35px; }
+
+/* Product Details Page - Bổ sung thuộc tính */
+.detail-text h4 { margin-top: 20px; }
+.detail-text input { width: 50px; padding: 5px; margin-bottom: 10px; }
+.detail-text .btn { border-radius: 5px; font-weight: 600; }
+.detail-text p { line-height: 1.6; color: #666; margin-top: 10px; }

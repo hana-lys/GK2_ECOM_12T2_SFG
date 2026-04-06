@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SWEETLAB - Shop</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -10,7 +12,7 @@
     <header class="header">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.png" alt="Logo" width="100" style="cursor: pointer;">
+                <img src="img/logo.png" alt="Logo" width="100" class="logo-img">
             </a>
         </div>
         <nav class="navbar">
@@ -20,47 +22,37 @@
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
-          <div class="user-wrapper" style="position: relative; display: inline-block;">
-        <span id="user-icon" style="cursor: pointer; font-size: 20px;">👤</span>
-        
-        <div id="user-dropdown" style="display: none; position: absolute; right: 0; top: 30px; background: white; min-width: 180px; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border-radius: 8px; z-index: 9999; padding: 15px; border: 1px solid #ffdae1; text-align: left;">
-            <p style="font-size: 14px; color: #e63946; font-weight: 700; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 8px;">Hi, User A! 👋</p>
-            <hr style="border: 0.5px solid #f9f9f9; margin: 10px 0;">
-            <a href="#" style="display: block; color: #c5568a; text-decoration: none; font-size: 13px; padding: 5px 0;">My Profile</a>
-            <a href="#" style="display: block; color: #c5568a; text-decoration: none; font-size: 13px; padding: 5px 0;">Order History</a>
-            <a href="#" style="display: block; color: #999; text-decoration: none; font-size: 13px; padding-top: 10px;">Logout</a>
+        <div class="icons header-icons">
+            <a href="cart.html" class="cart-link"><span>🛒</span></a>
+            <div class="user-wrapper">
+                <span id="user-icon">👤</span>
+                <div id="user-dropdown">
+                    <p class="dropdown-greeting">Hi, User A! 👋</p>
+                    <hr class="dropdown-hr">
+                    <a href="#" class="dropdown-link">My Profile</a>
+                    <a href="#" class="dropdown-link">Order History</a>
+                    <a href="#" class="dropdown-logout">Logout</a>
+                </div>
+            </div>
         </div>
-    </div>
     </header>
 
     <section class="product-page">
         <div class="container">
-            <h2 style="text-align: center; margin-top: 40px; margin-bottom: 30px; font-size: 35px;">Our Sweet Shop</h2>
+            <h2 class="shop-title">Our Sweet Shop</h2>
             <div class="product-container">
-                <div class="product-card">
-                    <a href="product.html"><img src="img/biscoff.jpg"></a>
-                    <h4>Biscoff Lotus</h4><p>$5</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <a href="product.html"><img src="img/cotton.jpg"></a>
-                    <h4>Cotton Candy</h4><p>$3</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <a href="product.html"><img src="img/dubai.jpg"></a>
-                    <h4>Dubai Chocolate</h4><p>$6</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-card"><img src="img/japan.jpg"><h4>Japanese Tea</h4><p>$4</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/matcha.png"><h4>Matcha Cream</h4><p>$5</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/strawcara.jpg"><h4>Salted Caramel</h4><p>$5</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/strawchoco.jpg"><h4>Fudge Strawberry</h4><p>$5</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/tropical.png"><h4>Tropical Blast</h4><p>$10</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/cherrybar.png"><h4>Cherry World</h4><p>$20</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/katie.jpg"><h4>Kookie Kream</h4><p>$20</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/lys.jpg"><h4>Luxurious Lover</h4><p>$50</p><button>Add to Cart</button></div>
-                <div class="product-card"><img src="img/glow.jpg"><h4>Candy Glow</h4><p>$15</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/biscoff.jpg"></a><h4>Biscoff Lotus</h4><p>$5</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/cotton.jpg"></a><h4>Cotton Candy</h4><p>$3</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/dubai.jpg"></a><h4>Dubai Chocolate</h4><p>$6</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/japan.jpg"></a><h4>Japanese Tea</h4><p>$4</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/matcha.png"></a><h4>Matcha Cream</h4><p>$5</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/strawcara.jpg"></a><h4>Salted Caramel</h4><p>$5</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/strawchoco.jpg"></a><h4>Fudge Strawberry</h4><p>$5</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/tropical.png"></a><h4>Tropical Blast</h4><p>$10</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/cherrybar.png"></a><h4>Cherry World</h4><p>$20</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/katie.jpg"></a><h4>Kookie Kream</h4><p>$20</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/lys.jpg"></a><h4>Luxurious Lover</h4><p>$50</p><button>Add to Cart</button></div>
+                <div class="product-card"><a href="product.html"><img src="img/glow.jpg"></a><h4>Candy Glow</h4><p>$15</p><button>Add to Cart</button></div>
             </div>
         </div>
     </section>
@@ -73,9 +65,9 @@
         </div>
         <div class="footer-box">
             <h3>Quick Links</h3>
-            <a href="index.html" style="color: white; text-decoration: none;">Home</a><br>
-            <a href="shop.html" style="color: white; text-decoration: none;">Shop</a><br>
-            <a href="blog.html" style="color: white; text-decoration: none;">Blog</a>
+            <a href="index.html" class="footer-link">Home</a><br>
+            <a href="shop.html" class="footer-link">Shop</a><br>
+            <a href="blog.html" class="footer-link">Blog</a>
         </div>
         <div class="footer-box">
             <h3>Follow Us</h3>

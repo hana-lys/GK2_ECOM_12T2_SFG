@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - SWEETLAB</title>
+    <title>SWEETLAB - About Us</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-     <div class="logo">
-    <a href="index.html">
-        <img src="img/logo.png" alt="Logo" width="100" style="cursor: pointer;">
-    </a>
-</div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo" width="100" class="logo-img">
+            </a>
+        </div>
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="shop.html">Shop</a>
@@ -21,68 +22,65 @@
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
-        <div class="icons" style="display: flex; align-items: center; gap: 15px;">
-    <a href="cart.html" style="text-decoration: none;"><span>🛒</span></a>
-    
-    <div class="user-wrapper" style="position: relative; display: inline-block;">
-        <span id="user-icon" style="cursor: pointer; font-size: 20px;">👤</span>
-        
-        <div id="user-dropdown" style="display: none; position: absolute; right: 0; top: 30px; background: white; min-width: 180px; box-shadow: 0 10px 20px rgba(0,0,0,0.15); border-radius: 8px; z-index: 9999; padding: 15px; border: 1px solid #ffdae1; text-align: left;">
-            <p style="font-size: 14px; color: #e63946; font-weight: 700; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 8px;">Hi, User A! 👋</p>
-            <hr style="border: 0.5px solid #f9f9f9; margin: 10px 0;">
-            <a href="#" style="display: block; color: #c5568a; text-decoration: none; font-size: 13px; padding: 5px 0;">My Profile</a>
-            <a href="#" style="display: block; color: #c5568a; text-decoration: none; font-size: 13px; padding: 5px 0;">Order History</a>
-            <a href="#" style="display: block; color: #999; text-decoration: none; font-size: 13px; padding-top: 10px;">Logout</a>
-        </div>
-    </div>
-</div>
+        <div class="icons header-icons">
+            <a href="cart.html" class="cart-link"><span>🛒</span></a>
+            <div class="user-wrapper">
+                <span id="user-icon">👤</span>
+                <div id="user-dropdown">
+                    <p class="dropdown-greeting">Hi, User A! 👋</p>
+                    <hr class="dropdown-hr">
+                    <a href="#" class="dropdown-link">My Profile</a>
+                    <a href="#" class="dropdown-link">Order History</a>
+                    <a href="#" class="dropdown-logout">Logout</a>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section class="about-section" style="padding: 60px 10%; text-align: center;">
-        <h2 style="font-size: 35px; margin-bottom: 20px;">About SWEETLAB</h2>
-        <p style="max-width: 800px; margin: 0 auto; line-height: 1.6;">
+    <section class="about-section">
+        <h2>About SWEETLAB</h2>
+        <p>
             SWEETLAB khởi đầu từ niềm đam mê mãnh liệt với những hương vị ngọt ngào. 
             Chúng tôi chuyên cung cấp các loại bánh kẹo, socola cao cấp từ khắp nơi trên thế giới. 
             Sứ mệnh của chúng tôi là mang lại niềm vui trong từng viên kẹo bạn thưởng thức.
         </p>
     </section>
 
-    <section class="team-section" style="padding: 40px 10%; background: #fff6fa;">
-        <h2 style="text-align: center; margin-bottom: 40px;">Our Team - Class 12T2</h2>
-        <div class="product-container"> <div class="product-card" style="text-align: center;">
-                <div style="width: 150px; height: 150px; background: #ddd; border-radius: 50%; margin: 0 auto 15px; overflow: hidden; border: 3px solid #e63946;">
-                    <img src="img/lich.jpg" alt="Lý Gia Hân" style="width: 100%; height: 100%; object-fit: cover;"> 
-                    </div>
+    <section class="team-section">
+        <h2>Our Team - Class 12T2</h2>
+        <div class="product-container">
+            <div class="product-card team-card">
+                <div class="team-img-wrapper">
+                    <img src="img/lich.jpg" alt="Lý Gia Hân"> 
+                </div>
                 <h4>Lý Gia Hân</h4>
-                <p style="color: #e63946; font-weight: bold;">Project Manager</p>
-                <p style="font-size: 14px;">Lớp 12T2</p>
+                <p class="team-role">Project Manager</p>
+                <p class="team-class">Lớp 12T2</p>
             </div>
 
-            <div class="product-card" style="text-align: center;">
-                <div style="width: 150px; height: 150px; background: #ddd; border-radius: 50%; margin: 0 auto 15px; overflow: hidden; border: 3px solid #e63946;">
-                    <img src="img/thao.jpg" alt="Phan Ngọc Thảo" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
+            <div class="product-card team-card">
+                <div class="team-img-wrapper">
+                    <img src="img/thao.jpg" alt="Phan Ngọc Thảo">
+                </div>
                 <h4>Phan Ngọc Thảo</h4>
-                <p style="color: #e63946; font-weight: bold;">Content & Responsive</p>
-                <p style="font-size: 14px;">Lớp 12T2</p>
+                <p class="team-role">Content & Responsive</p>
+                <p class="team-class">Lớp 12T2</p>
             </div>
 
-            <div class="product-card" style="text-align: center;">
-                <div style="width: 150px; height: 150px; background: #ddd; border-radius: 50%; margin: 0 auto 15px; overflow: hidden; border: 3px solid #e63946;">
-                    <img src="img/cherryreal.jpg" alt="Lương Châu Bảo Anh" style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
+            <div class="product-card team-card">
+                <div class="team-img-wrapper">
+                    <img src="img/cherryreal.jpg" alt="Lương Châu Bảo Anh">
+                </div>
                 <h4>Lương Châu Bảo Anh</h4>
-                <p style="color: #e63946; font-weight: bold;">UI/UX Designer</p>
-                <p style="font-size: 14px;">Lớp 12T2</p>
+                <p class="team-role">UI/UX Designer</p>
+                <p class="team-class">Lớp 12T2</p>
             </div>
-
         </div>
     </section>
 
     <footer class="footer">
         <div class="footer-box"><h3>SWEETLAB</h3><p>Sweet Candy Store</p></div>
-        <div class="footer-box"><h3>Quick Links</h3><a href="index.html" style="color: white;">Home</a><br><a href="shop.html" style="color: white;">Shop</a></div>
+        <div class="footer-box"><h3>Quick Links</h3><a href="index.html" class="footer-link">Home</a><br><a href="shop.html" class="footer-link">Shop</a></div>
         <div class="footer-box"><h3>Follow Us</h3><p>Instagram | Facebook | 12T2</p></div>
     </footer>
 
