@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Details - SWEETLAB</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo"><img src="img/logo.png" alt="Logo" width="100"></div>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo" width="100"></a>
+        </div>
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="shop.html">Shop</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
-        <div class="icons"><span>🛒</span><span>👤</span></div>
+        <div class="icons">
+            <a href="cart.html" style="text-decoration: none;"><span>🛒</span></a>
+            <span>👤</span>
+        </div>
     </header>
 
     <section class="single-product">
@@ -31,15 +36,27 @@
                 <input type="number" value="1" min="1">
                 <button class="btn">Add To Cart</button>
                 <h4>Product Details</h4>
-                <p>Trải nghiệm sự kết hợp hoàn hảo giữa socola Dubai thượng hạng và nhân hạt dẻ giòn tan. Đây là sản phẩm bán chạy nhất tại SWEETLAB.</p>
+                <p>Trải nghiệm sự kết hợp hoàn hảo giữa socola Dubai thượng hạng và nhân hạt dẻ giòn tan.</p>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-box"><h3>SWEETLAB</h3><p>Nơi ngọt ngào nhất</p></div>
-        <div class="footer-box"><h3>Menu</h3><a href="index.html">Home</a><br><a href="shop.html">Shop</a></div>
-        <div class="footer-box"><h3>Follow Us</h3><p>Facebook | Tiktok</p></div>
+        <div class="footer-box">
+            <h3>SWEETLAB</h3>
+            <p>Sweet Candy Store</p>
+        </div>
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="index.html" style="color: white; text-decoration: none;">Home</a><br>
+            <a href="shop.html" style="color: white; text-decoration: none;">Shop</a><br>
+            <a href="blog.html" style="color: white; text-decoration: none;">Blog</a>
+        </div>
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+            <p>Instagram | Facebook | Tiktok</p>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
