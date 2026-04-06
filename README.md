@@ -8,9 +8,10 @@
 
 * **Thiết kế Responsive**: Tương thích hoàn toàn với các thiết bị di động, máy tính bảng và máy tính để bàn.
 * **Sticky Header**: Thanh điều hướng luôn nằm ở phía trên cùng khi cuộn trang, giúp người dùng dễ dàng di chuyển giữa các mục.
-* **Hero Banner**: Hình ảnh lớn bắt mắt kèm lời chào mừng ấn tượng ngay khi vào trang.
 * **Danh mục sản phẩm**: Hiển thị các sản phẩm bán chạy (Popular Sweets) và hàng mới về (New Arrivals) dưới dạng lưới (Grid) đẹp mắt.
 * **Newsletter**: Tính năng đăng ký nhận thông tin khuyến mãi qua email.
+* **Giỏ hàng thông minh**: Tự động tính toán số lượng và cập nhật tổng tiền ngay tại trang cart
+* **Đồng bộ thương hiệu**: Header, Footer và tông màu thống nhất trên toàn bộ các trang web.
 
 ---
 
