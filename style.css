@@ -426,7 +426,7 @@ img {
 /* Shop Page */
 .shop-title { text-align: center; margin-top: 40px; margin-bottom: 30px; font-size: 35px; }
 
-/* Product Details Page - Bổ sung thuộc tính */
+/* Product Details Page */
 .detail-text h4 { margin-top: 20px; }
 .detail-text input { width: 50px; padding: 5px; margin-bottom: 10px; }
 .detail-text .btn { border-radius: 5px; font-weight: 600; }
